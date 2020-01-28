@@ -1,7 +1,24 @@
 .hide{
     display: none;
 }
-
 .show{
     display: block;
 }
+.space-top{
+    padding-top: 25px;
+}
+
+.button-space{
+    margin-top: 15px;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(../fonts/Avenir.ttc );
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font{
+    font-family: "Avenir"; 
+} 
