@@ -10,8 +10,13 @@
     padding-top: 25px;
 }
 
+.margin{
+    margin-left: 50px ;
+}
+
 .button-space{
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-left: 10px;
 }
 
 @font-face {
@@ -23,7 +28,7 @@
 
 .font{
     font-family: "Avenir"; 
-    font-size: 9pt  ;
+    font-size: 10pt  ;
 } 
 
 .h1, h2, h3, h4, h5, h6{
