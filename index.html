@@ -11,24 +11,25 @@
     <link rel="stylesheet" href="css/documentos.css">
 </head>
 <body>
-    <div class="form-inline">
+    <!-- <div class="form-inline">
         <form class="space-top margin" >
-        <div class="row">
-            <div class="col-md-6 col-sm-12" id="busca">
-                <input class="form-control form-control-lg font" type="text" placeholder="digite o CPF" id="inputCPF">
-                <button type="button" class="btn btn-primary button-space font" onclick="search()">Pesquisar</button>
+        <div class="row"> -->
+            <div id="busca">
+                <input class="font" type="text" placeholder="digite o CPF" id="inputCPF">
+                <button type="button" class="font" onclick="search()">Pesquisar</button>
             </div>
             <div id="resultado" class="hide">
                 <h3 class="h3" id="tituloDocumentos"></h3>
-                <button type="button" class="btn btn-primary button-space font" onclick="back()">Voltar</button>
+                <button type="button" class="font" onclick="back()">Voltar</button>
             </div>
-        </div>
-        </form>  
-    </div>    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <!-- </div>
+        </form> -->
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
     <script src="js/init.js"></script>
     <script src="js/documentos.js"></script>
 </body>
